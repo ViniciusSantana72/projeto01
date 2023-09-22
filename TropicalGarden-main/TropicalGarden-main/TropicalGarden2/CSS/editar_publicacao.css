@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #E2EED3;
+}
+
+/*Navbar */
+
+nav {
+    width: 100%;
+    background-color: #2E6665;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav>li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(50px, 10%, 120px);
+
+}
+
+nav>li>a {
+    font-size: clamp(8px, 2vw, 16px);
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav button {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(72, 217, 48, 1);
+    border: #fff solid 2px;
+}
+main{
+   margin: 10%;
+}
+ 
+/* Conteudo principal */
+
+.conteudo{
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.dados-texto form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.dados-texto{
+width: 60%}
+.dados-texto textarea, input{
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: #000 solid 1px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.salvar{
+    margin-right: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2AAF14;
+}
+.excluir{
+    margin-left: 8%;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+}
+
+#upload-form2{
+    display: flex;
+    align-items: center;
+    border: #000 3px dashed ;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+}
+#upload-form1 {
+    display: flex;
+    align-items: center;
+    border: #000 3px dashed ;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+.imagem{
+    width: 20%;
+}
+  
+  
+  
+  /*Footer*/
+.footer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer>nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer>nav>li {
+    width: 100px;
+}
+
+.footer>li {
+    width: clamp(80px, 100%, 180px);
+}
+
+.footer li a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.footer p {
+    font-size: clamp(10px, 2vw, 17px);
+    color: #fff;
+    white-space: nowrap;
+}

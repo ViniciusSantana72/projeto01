@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #E2EED3;
+}
+
+/*Navbar */
+nav {
+    width: 100%;
+    background-color: #2E6665;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav>li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(50px, 10%, 120px);
+
+}
+
+nav>li>a {
+    font-size: clamp(8px, 2vw, 16px);
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #fff;
+}
+
+.ancora-img>a>img {
+    width: clamp(30px, 100%, 50px);
+    height: clamp(30px, 100%, 50px);
+}
+
+.barra-de-pesquisa {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+nav button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(72, 217, 48, 1);
+    border: #fff solid 2px;
+}
+main{
+    margin: 10%;
+}
+/* Comteudo principal */
+ 
+ /* Filtro */
+ .conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+.conteudo select{
+    padding: 10px;
+    width: 100%;
+    border: #2E6665 solid 1px;
+    border-radius: 15px;
+}
+
+.itens{
+    background-color: #2E6665;
+    padding: 15px;
+    border-radius: 10px;
+}
+.itens p{
+    color: #fff;
+}
+.iten{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.conteudo button{
+    margin-top: 5%;
+    margin-left: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #2AAF14;
+}
+.conteudo a{
+    color: #fff;
+}
+ /*Footer*/
+.footer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer>nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer>nav>li {
+    width: 100px;
+}
+
+.footer>li {
+    width: clamp(80px, 100%, 180px);
+}
+
+.footer li a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.footer p {
+    font-size: clamp(10px, 2vw, 17px);
+    color: #fff;
+    white-space: nowrap;
+}
